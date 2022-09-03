@@ -1,0 +1,1 @@
+export { ProfileShortInfo } from './ProfileShortInfo';

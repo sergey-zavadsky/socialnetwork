@@ -1,0 +1,13 @@
+.navBar {
+	background-color: aquamarine;
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-areas: 'searchBar ul profile';
+}
+
+.ul {
+	grid-area: ul;
+}
+
+@import './../../SearchBar/css/style.scss';
+@import './../../Profile/css/style.scss';
