@@ -4,7 +4,7 @@ import './css/style.scss';
 
 function NavigationBar() {
 	return (
-		<nav className="navBar">
+		<nav className="navigationBar">
 			<SearchBar />
 			<ul className="ul">
 				<li>Home</li>

@@ -1,8 +1,9 @@
 import React from 'react';
+import './css/style.scss';
 
 function ProfileShortInfo() {
 	return (
-		<div>
+		<div className="profileShortInfo">
 			<div>Photo</div>
 			<div>name</div>
 			<div>title</div>
