@@ -1,8 +1,8 @@
 import React from 'react';
-import './css/style.module.scss';
+import style from './css/style.module.scss';
 
 function Posts() {
-	return <div className="posts">Posts</div>;
+	return <div className={style.posts}>Posts</div>;
 }
 
 export { Posts };

@@ -1,8 +1,8 @@
 import React from 'react';
-import './css/style.module.scss';
+import style from './css/style.module.scss';
 
 function PostMessage() {
-	return <div className="postMessage">Post message</div>;
+	return <div className={style.postMessage}>Post message</div>;
 }
 
 export { PostMessage };

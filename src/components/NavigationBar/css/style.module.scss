@@ -1,13 +1,18 @@
 .navigationBar {
-	background-color: aquamarine;
+	background-color: #d65847;
 	display: grid;
 	grid-template-rows: 1fr;
 	grid-template-areas: 'searchBar ul profile';
 	grid-area: navigationBar;
+	align-items: center;
+	height: 100px;
 }
 
 .ul {
+	display: grid;
 	grid-area: ul;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	list-style: none;
 }
 
 @import './../../SearchBar/css/style.module.scss';

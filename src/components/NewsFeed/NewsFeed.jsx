@@ -1,8 +1,8 @@
 import React from 'react';
-import './css/style.module.scss';
+import style from './css/style.module.scss';
 
 function NewsFeed() {
-	return <div className="newsFeed">NewsFeed</div>;
+	return <div className={style.newsFeed}>NewsFeed</div>;
 }
 
 export { NewsFeed };

@@ -1,8 +1,8 @@
 import React from 'react';
-import './css/style.module.scss';
+import style from './css/style.module.scss';
 
 function Profile() {
-	return <div className="profile">Profile</div>;
+	return <div className={style.profile}>Profile</div>;
 }
 
 export { Profile };

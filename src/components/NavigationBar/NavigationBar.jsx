@@ -1,12 +1,12 @@
 import React from 'react';
 import { SearchBar, Profile } from '../index';
-import './css/style.module.scss';
+import style from './css/style.module.scss';
 
 function NavigationBar() {
 	return (
-		<nav className="navigationBar">
+		<nav className={style.navigationBar}>
 			<SearchBar />
-			<ul className="ul">
+			<ul className={style.ul}>
 				<li>Home</li>
 				<li>Companies</li>
 				<li>Projects</li>

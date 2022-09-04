@@ -1,8 +1,8 @@
 import React from 'react';
-import './css/style.module.scss';
+import style from './css/style.module.scss';
 
 function SearchBar() {
-	return <div className="searchBar">Search</div>;
+	return <input className={style.searchBar} type="text" placeholder="Search" />;
 }
 
 export { SearchBar };
