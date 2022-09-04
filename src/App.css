@@ -13,9 +13,9 @@
 		'suggestions posts newsFeed';
 }
 
-@import './components/NavigationBar/css/style.scss';
-@import './components/NewsFeed/css/style.scss';
-@import './components/PostMessage/css/style.scss';
-@import './components/Posts/css/style.scss';
-@import './components/ProfileShortInfo/css/style.scss';
-@import './components/Suggestions/css/style.scss';
+@import './components/NavigationBar/css/style.module.scss';
+@import './components/NewsFeed/css/style.module.scss';
+@import './components/PostMessage/css/style.module.scss';
+@import './components/Posts/css/style.module.scss';
+@import './components/ProfileShortInfo/css/style.module.scss';
+@import './components/Suggestions/css/style.module.scss';

@@ -1,6 +1,6 @@
 import React from 'react';
 import { SearchBar, Profile } from '../index';
-import './css/style.scss';
+import './css/style.module.scss';
 
 function NavigationBar() {
 	return (
