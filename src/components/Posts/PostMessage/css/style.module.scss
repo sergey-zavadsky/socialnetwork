@@ -1,4 +1,11 @@
 .postMessage {
 	grid-area: postMessage;
 	background-color: rgb(150, 39, 39);
+	min-width: 100%;
+}
+
+.button {
+	position: relative;
+	top: 0;
+	right: 0;
 }

@@ -1,17 +1,22 @@
 * {
-	margin: 0;
+	box-sizing: border-box;
 	padding: 0;
+	margin: 0;
 }
 
-.app {
+body {
 	background-color: #f2f2f2;
+}
+.app {
 	display: grid;
-	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-rows: repeat(3, 1fr);
+	grid-row-start: auto;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-areas:
 		'navigationBar navigationBar navigationBar'
-		'profileShortInfo postMessage newsFeed'
-		'suggestions posts newsFeed';
+		'profileShortInfo postsBlock newsFeed'
+		'suggestions postsBlock newsFeed';
+	gap: 20px;
 }
 
 @import './components/NavigationBar/css/style.module.scss';

@@ -3,7 +3,6 @@ import './App.css';
 import {
 	NavigationBar,
 	ProfileShortInfo,
-	PostMessage,
 	Posts,
 	NewsFeed,
 	Suggestions,
@@ -14,7 +13,6 @@ function App() {
 		<div className="app">
 			<NavigationBar />
 			<ProfileShortInfo />
-			<PostMessage />
 			<Posts />
 			<NewsFeed />
 			<Suggestions />

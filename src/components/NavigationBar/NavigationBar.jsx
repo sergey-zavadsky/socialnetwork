@@ -7,13 +7,27 @@ function NavigationBar() {
 		<nav className={style.navigationBar}>
 			<SearchBar />
 			<ul className={style.ul}>
-				<li>Home</li>
-				<li>Companies</li>
-				<li>Projects</li>
-				<li>Profiles</li>
-				<li>Jobs</li>
-				<li>Messages</li>
-				<li>Notification</li>
+				<li>
+					<a href="link">Home</a>
+				</li>
+				<li>
+					<a href="link">Companies</a>
+				</li>
+				<li>
+					<a href="link">Projects</a>
+				</li>
+				<li>
+					<a href="link">Profiles</a>
+				</li>
+				<li>
+					<a href="link">Jobs</a>
+				</li>
+				<li>
+					<a href="link">Messages</a>
+				</li>
+				<li>
+					<a href="link">Notification</a>
+				</li>
 			</ul>
 			<Profile />
 		</nav>
